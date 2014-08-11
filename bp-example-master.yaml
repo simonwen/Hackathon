@@ -8,8 +8,8 @@ blueprint:
   documentation : 'http://openstack.org/forj'
   locations:
     modules: 
-      - src-repo: Mobility
-        git: 
+      - src-repo: bp-example
+        git: https://github.com/daihaojun/bp-example.git
         install:
           puppet-apply: install
         uninstall:
